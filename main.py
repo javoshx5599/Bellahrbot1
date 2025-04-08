@@ -62,7 +62,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "✅ BellaStore бот работает!"
+    return "✅ BellaStore бот работает! Phyton Разработчик 936515599"
 
 def run_web():
     app.run(host='0.0.0.0', port=8080)
